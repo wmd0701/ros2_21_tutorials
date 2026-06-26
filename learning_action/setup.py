@@ -22,6 +22,8 @@ setup(
         'console_scripts': [
          'action_move_client    = learning_action.action_move_client:main',
          'action_move_server    = learning_action.action_move_server:main',
+         'fib_server             = learning_action.fib_server:main',
+         'fib_client             = learning_action.fib_client:main',
         ],
     },
 )
