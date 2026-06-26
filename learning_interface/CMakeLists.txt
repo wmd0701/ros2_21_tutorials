@@ -27,6 +27,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/AddTwoInts.srv"
   "srv/GetObjectPosition.srv"
   "action/MoveCircle.action"
+  "srv/Fib.srv"
  )
  
 if(BUILD_TESTING)

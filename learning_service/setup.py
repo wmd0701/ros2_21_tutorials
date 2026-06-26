@@ -24,6 +24,8 @@ setup(
          'service_adder_server  = learning_service.service_adder_server:main',
          'service_object_client = learning_service.service_object_client:main',
          'service_object_server = learning_service.service_object_server:main',
+         'fib_server = learning_service.fib_server:main',
+         'fib_client = learning_service.fib_client:main',
         ],
     },
 )
