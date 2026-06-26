@@ -26,6 +26,8 @@ setup(
          'topic_webcam_sub      = learning_topic.topic_webcam_sub:main',
          'interface_object_pub  = learning_topic.interface_object_pub:main',
          'interface_object_sub  = learning_topic.interface_object_sub:main',
+         'addtwo_pub            = learning_topic.addtwo_pub:main',
+         'addtwo_sub            = learning_topic.addtwo_sub:main'
         ],
     },
 )
